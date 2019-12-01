@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/Users/least/code/github.com/daisuke.dev/src/images'
+let g:netrw_dirhist_5='/Users/least/code/github.com/daisuke.dev/src'
+let g:netrw_dirhist_4='/Users/least/code/github.com/daisuke.dev'
+let g:netrw_dirhist_3='/Users/least/code/github.com/daisuke.dev/node_modules/.bin'
+let g:netrw_dirhist_2='/Users/least/code/github.com/daisuke.dev/src'
+let g:netrw_dirhist_1='/Users/least/code/github.com/daisuke.dev/node_modules/.bin'
+let g:netrw_dirhist_0='/Users/least/code/github.com/daisuke.dev/node_modules'
+let g:netrw_dirhist_9='/Users/least/code/github.com/daisuke.dev/node_modules/.bin'
+let g:netrw_dirhist_8='/Users/least/code/github.com/daisuke.dev/node_modules'
+let g:netrw_dirhist_7='/Users/least/code/github.com/daisuke.dev/node_modules/@babel'

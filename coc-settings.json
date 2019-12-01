@@ -1,0 +1,38 @@
+{
+    "emmet.includeLanguages": {"javascript": "javascriptreact"},
+    "suggest.noselect": false,
+    "suggest.preferCompleteThanJumpPlaceholder": true,
+    "coc.preferences.formatOnSaveFiletypes": ["css","javascript","javascriptreact", "rust"],
+    "typescript.preferences.quoteStyle": "single",
+    "suggest.enablePreview": true,
+    "coc.preferences.enableFloatHighlight": true,
+    "coc.preferences.previewAutoClose": true,
+    "suggest.maxPreviewWidth": 50,
+    "diagnostic.messageTarget": "float",
+    "languageserver": {
+        "Swift":{
+            "command": "sourcekit-lsp",
+            "args": [],
+            "filetypes": ["swift"],
+            "initializationOptions": {},
+            "settings": {}
+        },
+        "golang": {
+            "command": "gopls",
+            "args": [],
+            "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+            "filetypes": ["go"]
+        },
+        "clojure-lsp":{
+          "command": "zsh",
+          "args": ["-c", "clojure-lsp"],
+          "filetypes": ["clojure"],
+          "rootPatterns": ["project.clj"],
+          "additionalSchemes": ["jar", "zipfile"],
+          "trace.server": "verbose",
+          "initializationOptions": {
+      }
+    }
+}}
+
+
